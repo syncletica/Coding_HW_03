@@ -29,6 +29,10 @@
   font-family: "Montserrat", sans-serif;
 }
 
+#dropDown {
+  display: none;
+}
+
 .Hero {
   background-image: url(../images/wave3.jpg);
   background-attachment: fixed;
@@ -79,10 +83,12 @@ nav h1 {
 
 @media (max-width: 700px) {
   .CaseStudies {
+    grid-template-rows: 400px 400px 400px;
+    grid-template-columns: 100%;
     grid-template-areas:
       "houstonJustice"
       "mealMixer"
-      "EmergyGov";
+      "energyGov";
   }
 }
 
